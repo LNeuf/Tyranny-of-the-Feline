@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VictoryDefeat" style="width: 100%; height: 100%; opacity: 1; background-color: rgba(132, 132, 132, 0.62);">
+        <ui:Label display-tooltip-when-elided="true" name="ConditionLabel" style="width: 50%; height: 30%; left: 25%; top: 20%; -unity-text-align: upper-center; font-size: 200px; -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;); -unity-font-style: bold;" />
+        <ui:Button text="Exit to Lobby Selector" display-tooltip-when-elided="true" name="ExitToLobbySelectorButton" style="width: 30%; height: 10%; left: 35%; top: 25%; background-image: url(&apos;project://database/Assets/Art/UI/ToFUI.png?fileID=-567201049&amp;guid=4e228ddc51884144ea93966d21017530&amp;type=3#Button_Norm&apos;); color: rgb(255, 255, 255); font-size: 40px;" />
+    </ui:VisualElement>
+</ui:UXML>

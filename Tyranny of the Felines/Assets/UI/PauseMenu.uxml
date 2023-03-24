@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="PauseMenuButtonContainer" style="position: absolute; width: 30%; height: 30%; top: 211px; left: 246px;" />
+    <ui:GroupBox style="position: absolute; left: 27.5%; top: 30%; width: 45%; color: rgb(255, 255, 255); height: 30%;">
+        <ui:Button text="Go To Options" display-tooltip-when-elided="true" name="PauseMenuGoToOptionsButton" style="height: 30%; background-image: url(&apos;project://database/Assets/Art/UI/ToFUI.png?fileID=-567201049&amp;guid=4e228ddc51884144ea93966d21017530&amp;type=3#Button_Norm&apos;); font-size: 40px;" />
+        <ui:Button text="Exit to Lobby Selector" display-tooltip-when-elided="true" name="PauseMenuExitToLobbySelectorButton" style="height: 30%; background-image: url(&apos;project://database/Assets/Art/UI/ToFUI.png?fileID=-567201049&amp;guid=4e228ddc51884144ea93966d21017530&amp;type=3#Button_Norm&apos;); font-size: 40px;" />
+        <ui:Button text="Back to Game" display-tooltip-when-elided="true" name="PauseMenuBackToGameButton" style="height: 30%; background-image: url(&apos;project://database/Assets/Art/UI/ToFUI.png?fileID=-567201049&amp;guid=4e228ddc51884144ea93966d21017530&amp;type=3#Button_Norm&apos;); font-size: 40px;" />
+    </ui:GroupBox>
+</ui:UXML>

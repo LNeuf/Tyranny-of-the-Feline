@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc214618d56cdc446a41fd84a2c0833d, type: 3}
+  m_Name: FeatherThrow
+  m_EditorClassIdentifier: 
+  projectileDamage: 4
+  projectileHealing: 0
+  projectileUses: 0
+  projectileSpeed: 0.75
+  projectileDuration: 2
+  projectilePrefab: {fileID: 4340593494901402520, guid: 0bbc38b269e76ed438fed52c4ec24b5d, type: 3}
+  type: 0
+  target: 0

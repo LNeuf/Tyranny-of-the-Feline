@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="MainMenu" src="project://database/Assets/UI/MainMenu.uxml?fileID=9197481963319205126&amp;guid=4527a9cacdb624f4b94715fc1108ae27&amp;type=3#MainMenu" />
+    <ui:Template name="Lobby" src="project://database/Assets/UI/Lobby.uxml?fileID=9197481963319205126&amp;guid=5e9cd741e5fddc14aa0f81e387667e26&amp;type=3#Lobby" />
+    <ui:Template name="LobbySelector" src="project://database/Assets/UI/LobbySelector.uxml?fileID=9197481963319205126&amp;guid=9c52724aeda83b248a52905b3ab3c875&amp;type=3#LobbySelector" />
+    <ui:Template name="Options" src="project://database/Assets/UI/Options.uxml?fileID=9197481963319205126&amp;guid=f7ff7180a1534bd4b9bc0f1f0fec9fdd&amp;type=3#Options" />
+    <ui:Template name="ModalUI" src="project://database/Assets/UI/Modal.uxml?fileID=9197481963319205126&amp;guid=a0ec0239f54659d448bae867a5451c8e&amp;type=3#Modal" />
+    <ui:Template name="PauseMenu" src="project://database/Assets/UI/PauseMenu.uxml?fileID=9197481963319205126&amp;guid=c50c1c00908102141b993a155524dbf6&amp;type=3#PauseMenu" />
+    <ui:Template name="VictoryDefeat" src="project://database/Assets/UI/VictoryDefeat.uxml?fileID=9197481963319205126&amp;guid=65315d0092b12144599f57e41448e714&amp;type=3#VictoryDefeat" />
+    <ui:Template name="CutsceneOverlayUI" src="project://database/Assets/UI/CutsceneOverlayUI.uxml?fileID=9197481963319205126&amp;guid=98fd9372841f4c84ba32aaf59705c994&amp;type=3#CutsceneOverlayUI" />
+    <ui:Template name="ControlsUI" src="project://database/Assets/UI/ControlsUI.uxml?fileID=9197481963319205126&amp;guid=6d4b30421007fb7428d940336041d0f7&amp;type=3#ControlsUI" />
+    <ui:Instance template="MainMenu" name="MainMenu" style="display: flex; width: 100%; height: 100%;" />
+    <ui:Instance template="Lobby" name="Lobby" style="display: none; width: 100%; height: 100%;" />
+    <ui:Instance template="LobbySelector" name="LobbySelector" style="display: none; width: 100%; height: 100%;" />
+    <ui:Instance template="Options" name="Options" style="display: none; width: 100%; height: 100%;" />
+    <ui:Instance template="ModalUI" name="Modal" style="position: absolute; display: none; width: 100%; height: 100%;" />
+    <ui:Instance template="PauseMenu" name="PauseMenu" style="height: 100%; width: 100%; display: none;" />
+    <ui:Instance template="VictoryDefeat" name="VictoryDefeat" style="display: none; width: 100%; height: 100%;" />
+    <ui:Instance template="CutsceneOverlayUI" name="CutsceneOverlayUI" style="display: none; position: absolute; right: 0; bottom: 0;" />
+    <ui:Instance template="ControlsUI" name="ControlsUI" style="display: none; position: absolute; width: 100%; height: 100%;" />
+</ui:UXML>

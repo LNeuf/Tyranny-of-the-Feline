@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="ModalContainer" style="position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+        <ui:VisualElement name="ModalContent" style="position: absolute; left: 25%; top: 25%; width: 50%; height: 50%; background-color: rgb(118, 114, 113); border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; padding-left: 30px; padding-right: 30px; padding-top: 30px; padding-bottom: 30px; background-image: url(&apos;project://database/Assets/Art/UI/ToFUI.png?fileID=-1116484864&amp;guid=4e228ddc51884144ea93966d21017530&amp;type=3#UIFrame&apos;);">
+            <ui:VisualElement name="MessageModal" style="height: 100%; width: 100%; display: flex;">
+                <ui:Label text="Title" display-tooltip-when-elided="true" name="MessageTitle" style="height: 9%; font-size: 48px; flex-direction: column; -unity-text-align: middle-left; color: rgb(255, 255, 255);" />
+                <ui:Label text="Content" display-tooltip-when-elided="true" name="MessageContent" style="height: 80%; padding-bottom: 10px; font-size: 28px; color: rgb(255, 255, 255);" />
+                <ui:VisualElement name="MessageButtonContainer" style="-unity-text-align: upper-left; flex-direction: row-reverse;">
+                    <ui:Button text="Ok" display-tooltip-when-elided="true" name="MessageConfirmButton" style="right: 0; width: 33%; flex-direction: column; -unity-text-align: middle-center; align-items: stretch; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; font-size: 48px; background-image: url(&apos;project://database/Assets/Art/UI/ToFUI.png?fileID=-567201049&amp;guid=4e228ddc51884144ea93966d21017530&amp;type=3#Button_Norm&apos;); color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="InputModal" style="width: 100%; height: 100%; display: none;">
+                <ui:Label text="Title" display-tooltip-when-elided="true" name="InputTitle" style="height: 9%; font-size: 48px; -unity-text-align: middle-left;" />
+                <ui:TextField picking-mode="Ignore" label="IP:Port" name="InputTextField" style="height: 12.5%; -unity-text-align: middle-left; white-space: nowrap; font-size: 28px;" />
+                <ui:VisualElement name="InputSpacer" style="height: 60%;" />
+                <ui:VisualElement name="InputButtonContainer" style="height: 10%; flex-direction: row-reverse;">
+                    <ui:Button text="Confirm" display-tooltip-when-elided="true" name="InputConfirmButton" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; height: 200%; width: 30%; font-size: 28px;" />
+                    <ui:Button text="Cancel" display-tooltip-when-elided="true" name="InputCancelButton" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; width: 30%; height: 200%; font-size: 28px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

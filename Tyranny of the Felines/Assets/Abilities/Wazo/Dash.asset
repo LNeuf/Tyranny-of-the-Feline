@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46e003a36d1e5b34384403647573d829, type: 3}
+  m_Name: Dash
+  m_EditorClassIdentifier: 
+  windUpTime: 0
+  castTime: 0.5
+  windDownTime: 0
+  cooldownTime: 1
+  windUp:
+  - {fileID: 11400000, guid: 876fe6b50383dde439fe32a1bed056f9, type: 2}
+  cast:
+  - {fileID: 11400000, guid: 974455bfecb6524499c50f054ced7b2c, type: 2}
+  - {fileID: 11400000, guid: d55a6e0ba6861404496d9d08e6a4cf0d, type: 2}
+  windDown:
+  - {fileID: 11400000, guid: b82bb785e12e05c45b5c74d29d337fde, type: 2}
+  - {fileID: 11400000, guid: f45e32dcfb73a67429741a8b511c13eb, type: 2}
+  - {fileID: 11400000, guid: ac2abd259b3af0b43ac64ae262052331, type: 2}

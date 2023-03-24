@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46e003a36d1e5b34384403647573d829, type: 3}
+  m_Name: MagicMissile
+  m_EditorClassIdentifier: 
+  windUpTime: 0.1
+  castTime: 0
+  windDownTime: 0
+  cooldownTime: 3
+  windUp:
+  - {fileID: 11400000, guid: 2c4cdf0165af504468dd4b768fc4e54a, type: 2}
+  cast:
+  - {fileID: 11400000, guid: dde5c0950f4fb06448be79ae04d4d2e0, type: 2}
+  windDown:
+  - {fileID: 11400000, guid: b82bb785e12e05c45b5c74d29d337fde, type: 2}
+  - {fileID: 11400000, guid: 4b41f3e05b7efd6468097c7c3840bb7d, type: 2}

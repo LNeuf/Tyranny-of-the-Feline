@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46e003a36d1e5b34384403647573d829, type: 3}
+  m_Name: BigHeal
+  m_EditorClassIdentifier: 
+  windUpTime: 0
+  castTime: 0.4
+  windDownTime: 0
+  cooldownTime: 30
+  windUp:
+  - {fileID: 11400000, guid: 87f193f5d2b5c7a43a155f1f70b78dd4, type: 2}
+  cast:
+  - {fileID: 11400000, guid: 41a43a46ed5f82e4eaa960373cd5c4fb, type: 2}
+  windDown:
+  - {fileID: 11400000, guid: b82bb785e12e05c45b5c74d29d337fde, type: 2}
