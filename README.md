@@ -17,7 +17,9 @@
 
 # Setup
  * Run "Main Menu" scene in Unity
- OR
+
+   OR
+
  * Build project and run executable
  
 # Unity Version
