@@ -16,7 +16,9 @@
   
 
 # Setup
- * Run "Main Menu" scene in unity
-
+ * Run "Main Menu" scene in Unity
+ OR
+ * Build project and run executable
+ 
 # Unity Version
  * 2021.2.10f1
