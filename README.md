@@ -3,7 +3,7 @@
   
  A small game created for CMPT 406. A multiplayer boss fight arena game. Involves up to three players taking control of one of three characters to fight a multi-form boss. Characters have distinct roles and play styles. Had online play functionality (servers are no longer operational).
 
- 
+ Main responibilities: Lead Character Artist, UI Artist
 
 Main Menu:
 ![TOFMainMenu](https://user-images.githubusercontent.com/73213301/227703153-d93db9fc-2452-49bd-8136-66b9689425f4.PNG)
